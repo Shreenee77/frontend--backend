@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "354830c8-33a2-4d10-8527-6c6816c13d91",
+		"name": "Shrenee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33959171"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3017/api/report/shrenee"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"refNo\": \"000001\",\r\n    \"nearMissTitle\": \"SHRENEE \",\r\n    \"nearMissType\": \"Safety Hazard\",\r\n    \"nearMissDate\": \"06-11-2024\",\r\n    \"nearMissExactLocation\": \"Warehouse \",\r\n    \"department\": \"Operations\",\r\n    \"processType\": \"Routine Inspection\",\r\n    \"nearMissTime\": \"14:30\",\r\n    \"personType\": \"Employee\",\r\n    \"witness\": 3,\r\n    \"nearmissDescription\": \"Observed water spillage near the entrance, posing a slip hazard.\",\r\n    \"possibleConsequences\": \"Potential for employee injury due to slipping.\",\r\n    \"unsafeActBy\": \"Cleaner\",\r\n    \"isPersonAdvised\": true,\r\n    \"responsibleAreaManager\": \"John Doe\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3017/api/report/shrenee"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:3017/api/report/shrenee"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3017/api/report/shrenee"
+			},
+			"response": []
+		}
+	]
+}
